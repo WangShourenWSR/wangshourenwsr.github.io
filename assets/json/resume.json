@@ -30,8 +30,7 @@
       "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2024-08-01",
-      "endDate": "",
-      "summary": "Pursuing Ph.D. in Computer Science, with a focus on large language models and reinforcement learning."
+      "endDate": ""
     },
     {
       "institution": "New York University",
@@ -39,7 +38,6 @@
       "url": "https://www.nyu.edu",
       "area": "Computer Engineering",
       "studyType": "Master of Science",
-      "gpa": "3.93/4.0",
       "startDate": "2021-09-01",
       "endDate": "2023-05-01"
     },
@@ -49,10 +47,8 @@
       "url": "https://www.hnu.edu.cn",
       "area": "Digital Media Technology (a computer vision, human-computer interaction and video game specialized Software Engineering)",
       "studyType": "Bachelor of Engineering",
-      "gpa": "83.16/100",
       "startDate": "2015-09-01",
-      "endDate": "2019-06-01",
-      "summary": "Specialized in visual software/algorithm development within the broader context of Software Engineering, with courses in computer vision, game development, and animation."
+      "endDate": "2019-06-01"
     }
   ],
   "work": [
