@@ -21,50 +21,54 @@ The experient scenario:
 </div>
 The system ordinary differential equations:
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/2.LTI_system.png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/2.LTI_system.png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 Introduce time delay to the system:
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/3.time_delay.png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/3.time_delay.png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 
 ### Augmentation
 Inspired by a <a href="https://ieeexplore.ieee.org/abstract/document/9254117?casa_token=HC05knlZDkAAAAAA:ZXpMeMqXw40jGATdSkpRVhTc0thnTottG6JOxWjanHlI5ufbS8Z8DRopugBRtgqI3hbdm34I">paper for autonomous vehicles</a> and its state augmentation idea I augmented the state vector with past state and control vectors to eliminate the effect of time delay. 
 To augment the system with past states and control vectors, we must first discretize the system. The discretization method is:
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/4.discretization_and_augmentation.png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/4.discretization_and_augmentation.png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 Then, augment the discrete LTI system with past state and control vectors:
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/5.augmentation.png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/5.augmentation.png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 Subsequently, I applied Value Iteration based ADP algorithm to the augmented LTI system and conducted simulation in a Python environment. The Value Iteration based ADP algorithm is shown as below.
 The Value Iteration based ADP is based on Value Iteration algorithm in Dynamic Programming when the system dynamic is known (model-based). Here is the model-based method is shown as below:
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/6.ADP(1).png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(1).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/6.ADP(2).png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(2).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 
 ### Adaptive Dynamic Programming
 To solve the unknow system dynamic (Matrices A and B), we introduced the Data-Driven method, Value Iteration based ADP to generate the control gain matrix K (policy) from data obtained from the environment instead of the known system dynamic (Matrices A and B).
 (In some sense, this approach is similar to Q-learning, where H matrix defines the action-value function:)
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/6.ADP(3).png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(3).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/6.ADP(4).png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(4).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/6.ADP(5).png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(5).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/6.ADP(6).png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(6).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 By applying ADP, we can obtain the control policy from data instead of system model:
 <div style="text-align: center;">
-  <img src="/assets/img/projects/sensorimotor_control/6.ADP(7).png" alt="Experiment Scenario" style="width: 50%; height: auto;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(7).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
+</div>
+The overall algorithm is: 
+<div style="text-align: center;">
+  <img src="/assets/img/projects/sensorimotor_control/6.ADP(8).png" alt="Experiment Scenario" style="width: 70%; height: auto;">
 </div>
 
 # Results
