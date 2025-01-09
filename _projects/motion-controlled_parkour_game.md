@@ -2,7 +2,7 @@
 layout: page
 title: Motion-Controlled Parkour Game
 description: Developed a gesture-controlled parkour video game using the Unity3D engine and CNN model.
-img: assets/img/projects/alien_shooter-like_game/motion-controlled_parkour_game.png
+img: assets/img/projects/motion-controlled_parkour_game/motion-controlled_parkour_game.png
 importance: 100
 category: work
 related_publications: false
@@ -10,7 +10,7 @@ related_publications: false
 Here is a introduction for our game (This video is in Chinese): 
 
 <video controls width="640" height="360">
-    <source src="{{ site.baseurl }}/assets/video/projects/alien_shooter-like_game/intro_video.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/video/projects/motion-controlled_parkour_game/intro_video.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 ## Introduction
