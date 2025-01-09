@@ -2,7 +2,7 @@
 layout: page
 title: Alien Shooter-like Game Development
 description: Developed a Alien Shooter-like video game using the Unity3D engine.
-img: assets/img/projects/alien_shooter-like_game/alien_shoot-like_game.jpg
+img: assets/img/projects/alien_shooter-like_game/alien_shooter-like_game.jpg
 importance: 99
 category: work
 related_publications: false
