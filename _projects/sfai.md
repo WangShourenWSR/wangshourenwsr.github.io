@@ -18,7 +18,7 @@ To enhance your enjoyment, let's start with a video!
 ## Introduction
 This project focuses on developing a Deep Reinforcement Learning (DRL)-based game-play agent for Street Fighter II (SF2), with an emphasis on enhancing the agent's enjoyability for players. Conducted as part of my research internship at <a href="https://game.engineering.nyu.edu/"> NYU Game Innovation Lab </a>  under the guidance of Prof. <a href="https://engineering.nyu.edu/faculty/julian-togelius"> Julian Togelius </a>,  in collaboration with <a href="https://jiangzehua.github.io/"> Zehua Jiang </a>, <a href="https://github.com/fernandomsilva"> Fernando Silva </a>, and <a href="https://github.com/smearle"> Sam Earle </a>, the project explores advanced training techniques, such as self-play and reward engineering, to create an engaging and adaptive game-play agent to improve players' enjoyment.
 
-## Methodology
+## Method
 ### Initial Challenges
 The project began by investigating existing baselines for SF2 DRL agents. The <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202300335">first baseline </a> lacked accessible code or a GitHub repository, while <a href="https://github.com/linyiLYi/street-fighter-ai"> the second </a> was a very simple project with poor agent performance. To improve upon this, I tested various DRL models and extended them using auxiliary objectives to better capture key environmental information. However, the agents still failed to learn advanced strategies, highlighting limitations in the original training methods rather than the model's capacity.
 
@@ -31,7 +31,7 @@ Inspired by successful self-play pipelines in <a href="https://ieeexplore.ieee.o
 </ol>
 This combination enabled the agent to effectively learn advanced skills and strategies, surpassing the limitations of earlier approaches.
 
-#### Reward Engineering
+#### Reward Design
 To make the agent more enjoyable for players, I designed several reward functions aimed at promoting advanced and diverse behaviors. This involved:
 Rewarding advanced strategies, e.g. special moves.
 Penalizing repetitive or overly simplistic strategies. The reward engineering process played a crucial role in guiding the agent toward learning behaviors that align with human players' preferences.
