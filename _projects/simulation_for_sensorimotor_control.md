@@ -11,7 +11,7 @@ related_publications: false
 ## Introduction
 This is my first reinforcement learning project, and it is a theoretical tabular reinforcement learning method based project. In this project, I applied a reinforcement learning algorithm, Value-Iteration based Adaptive Dynamic Programming (ADP) to a augmented sensorimotor system to explain the Central Nervous System’s (CNS’s) learning ability and adaptivity to perturbed environment and time delay in limbs' movement. 
 
-## Methodology
+## Method
 The methodology is based on a <a href="https://link.springer.com/article/10.1007/s00422-014-0613-7"> previous research </a> which models limb's movement as a Linear Time-Invariant (LTI) system and applies Policy-Iteration based Adaptive Dynamic Programming (ADP) to a solve the unknown system dynamic. However, it did not take into account the time delay issues and CNS's adaptability to time delay in sensorimotor control. To address this limitation, in this research, I introduced time delay to the LTI system and applied state-augmentation and Value Iteration based ADP algorithm to demonstrate the Central Nervous System’s (CNS’s) adaptability to time delay in limbs' movement. 
 ### Modeling
 The following is the how we model this scenario and how to introduce time delay.
