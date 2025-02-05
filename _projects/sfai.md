@@ -16,7 +16,7 @@ To enhance your enjoyment, let's start with a video!
 </video>
 
 ## Introduction
-This project focuses on developing a Deep Reinforcement Learning (DRL)-based game-play agent for Street Fighter II (SF2), with an emphasis on enhancing the agent's enjoyability for players. Conducted as part of my research internship at <a href="https://game.engineering.nyu.edu/"> NYU Game Innovation Lab </a>  under the guidance of Prof. <a href="https://engineering.nyu.edu/faculty/julian-togelius"> Julian Togelius </a>,  in collaboration with <a href="https://jiangzehua.github.io/"> Zehua Jiang </a>, <a href="https://github.com/fernandomsilva"> Fernando Silva </a>, and <a href="https://github.com/smearle"> Sam Earle </a>, the project explores advanced training techniques, such as self-play and reward engineering, to create an engaging and adaptive game-play agent to improve players' enjoyment.
+This project focuses on developing a Deep Reinforcement Learning (DRL)-based game-play agent for Street Fighter II (SF2), with an emphasis on enhancing the agent's enjoyability for players. Conducted as part of my research internship at <a href="https://game.engineering.nyu.edu/"> NYU Game Innovation Lab </a>  under the guidance of Prof. <a href="https://engineering.nyu.edu/faculty/julian-togelius"> Julian Togelius </a>,  in collaboration with <a href="https://jiangzehua.github.io/"> Zehua Jiang </a>, <a href="https://github.com/fernandomsilva"> Fernando Silva </a>, and <a href="https://github.com/smearle"> Sam Earle </a>, the project explores advanced training techniques, such as self-play and reward design, to create an engaging and adaptive game-play agent to improve players' enjoyment.
 
 ## Method
 ### Initial Challenges
@@ -34,7 +34,7 @@ This combination enabled the agent to effectively learn advanced skills and stra
 #### Reward Design
 To make the agent more enjoyable for players, I designed several reward functions aimed at promoting advanced and diverse behaviors. This involved:
 Rewarding advanced strategies, e.g. special moves.
-Penalizing repetitive or overly simplistic strategies. The reward engineering process played a crucial role in guiding the agent toward learning behaviors that align with human players' preferences.
+Penalizing repetitive or overly simplistic strategies. The reward design process played a crucial role in guiding the agent toward learning behaviors that align with human players' preferences.
 
 ## Results
 The results demonstrated significant improvements in the agent’s learning and enjoyability: 
