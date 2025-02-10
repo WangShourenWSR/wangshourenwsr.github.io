@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Enjoyability focused Street Fighter Game-Play Agent
+title: Enjoyability focused Street Fighter Game-Playing Agent
 description: Use Deep Reinforcement Learning method train agents to improve the players' enjoyment in Street Fighter II
 img: assets/img/projects/sfai/cover.png
 importance: 1
@@ -16,7 +16,7 @@ To enhance your enjoyment, let's start with a video!
 </video>
 
 ## Introduction
-This project focuses on developing a Deep Reinforcement Learning (DRL)-based game-play agent for Street Fighter II (SF2), with an emphasis on enhancing the agent's enjoyability for players. Conducted as part of my research internship at <a href="https://game.engineering.nyu.edu/"> NYU Game Innovation Lab </a>  under the guidance of Prof. <a href="https://engineering.nyu.edu/faculty/julian-togelius"> Julian Togelius </a>,  in collaboration with <a href="https://jiangzehua.github.io/"> Zehua Jiang </a>, <a href="https://github.com/fernandomsilva"> Fernando Silva </a>, and <a href="https://github.com/smearle"> Sam Earle </a>, the project explores advanced training techniques, such as self-play and reward design, to create an engaging and adaptive game-play agent to improve players' enjoyment.
+This project focuses on developing a Deep Reinforcement Learning (DRL)-based game-playing agent for Street Fighter II (SF2), with an emphasis on enhancing the agent's enjoyability for players. Conducted as part of my research internship at <a href="https://game.engineering.nyu.edu/"> NYU Game Innovation Lab </a>  under the guidance of Prof. <a href="https://engineering.nyu.edu/faculty/julian-togelius"> Julian Togelius </a>,  in collaboration with <a href="https://jiangzehua.github.io/"> Zehua Jiang </a>, <a href="https://github.com/fernandomsilva"> Fernando Silva </a>, and <a href="https://github.com/smearle"> Sam Earle </a>, the project explores advanced training techniques, such as self-play and reward design, to create an engaging and adaptive game-playing agent to improve players' enjoyment.
 
 ## Method
 ### Initial Challenges
