@@ -1,7 +1,7 @@
 ---
 layout: page
 title: A Two-Tier DRL and LLM-Based Agent System for Enhancing Fighting Game Enjoyability
-description: Use Deep Reinforcement Learning method train agents to improve the players' enjoyment in Street Fighter II
+description: Developing a two-tier agent (TTA) system that enhances player enjoyment in Street Fighter II using deep reinforcement learning (DRL) and a Large Language Model Hyper-Agent, which dynamically selects suitable DRL opponents based on player data and feedback.
 img: assets/img/projects/sfai/cover.png
 importance: 1
 category: work
@@ -16,7 +16,8 @@ To enhance your enjoyment, let's start with a video!
 </video>
 
 ## Abstract
-Deep reinforcement learning (DRL) has effectively enhanced gameplay experiences and game design across various game genres. However, few studies on fighting game agents have focused explicitly on enhancing player enjoyment, a critical factor for both developers and players. To address this gap and establish a practical baseline for designing enjoyability-focused agents, we propose a two-tier agent (TTA) system and conducted experiments in the classic fighting game Street Fighter II. The first tier of TTA employs a task-oriented network architecture, modularized reward functions, and hybrid training to produce diverse and skilled DRL agents. In the second tier of TTA, a Large Language Model Hyper-Agent, leveraging players' playing data and feedback, dynamically selects suitable DRL opponents. In addition, we investigate and model several key factors that affect the enjoyability of the opponent. The experiments demonstrate improvements from 218.56\% to 472.55\% in the execution of advanced skills over baseline methods. The trained agents also exhibit distinct game-playing styles. Additionally, we conducted a small-scale user **(The content below is outdated and will be updated in the coming weeks.)**
+Deep reinforcement learning (DRL) has effectively enhanced gameplay experiences and game design across various game genres. However, few studies on fighting game agents have focused explicitly on enhancing player enjoyment, a critical factor for both developers and players. To address this gap and establish a practical baseline for designing enjoyability-focused agents, we propose a two-tier agent (TTA) system and conducted experiments in the classic fighting game Street Fighter II. The first tier of TTA employs a task-oriented network architecture, modularized reward functions, and hybrid training to produce diverse and skilled DRL agents. In the second tier of TTA, a Large Language Model Hyper-Agent, leveraging players' playing data and feedback, dynamically selects suitable DRL opponents. In addition, we investigate and model several key factors that affect the enjoyability of the opponent. The experiments demonstrate improvements from 218.56\% to 472.55\% in the execution of advanced skills over baseline methods. The trained agents also exhibit distinct game-playing styles. Additionally, we conducted a small-scale user study, and the overall enjoyment in the player's feedback validates the effectiveness of our TTA system.
+**(The content below is outdated and will be updated in the coming weeks.)**
 
 
 ## Introduction
