@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Enjoyability focused Street Fighter Game-Playing Agent
+title: A Two-Tier DRL and LLM-Based Agent System for Enhancing Fighting Game Enjoyability
 description: Use Deep Reinforcement Learning method train agents to improve the players' enjoyment in Street Fighter II
 img: assets/img/projects/sfai/cover.png
 importance: 1
@@ -14,6 +14,10 @@ To enhance your enjoyment, let's start with a video!
     <source src="{{ site.baseurl }}/assets/video/projects/sfai/game_play_video.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+
+## Abstract
+Deep reinforcement learning (DRL) has effectively enhanced gameplay experiences and game design across various game genres. However, few studies on fighting game agents have focused explicitly on enhancing player enjoyment, a critical factor for both developers and players. To address this gap and establish a practical baseline for designing enjoyability-focused agents, we propose a two-tier agent (TTA) system and conducted experiments in the classic fighting game Street Fighter II. The first tier of TTA employs a task-oriented network architecture, modularized reward functions, and hybrid training to produce diverse and skilled DRL agents. In the second tier of TTA, a Large Language Model Hyper-Agent, leveraging players' playing data and feedback, dynamically selects suitable DRL opponents. In addition, we investigate and model several key factors that affect the enjoyability of the opponent. The experiments demonstrate improvements from 218.56\% to 472.55\% in the execution of advanced skills over baseline methods. The trained agents also exhibit distinct game-playing styles. Additionally, we conducted a small-scale user **(The content below is outdated and will be updated in the coming weeks.)**
+
 
 ## Introduction
 This project focuses on developing a Deep Reinforcement Learning (DRL)-based game-playing agent for Street Fighter II (SF2), with an emphasis on enhancing the agent's enjoyability for players. Conducted as part of my research internship at <a href="https://game.engineering.nyu.edu/"> NYU Game Innovation Lab </a>  under the guidance of Prof. <a href="https://engineering.nyu.edu/faculty/julian-togelius"> Julian Togelius </a>,  in collaboration with <a href="https://jiangzehua.github.io/"> Zehua Jiang </a>, <a href="https://github.com/fernandomsilva"> Fernando Silva </a>, and <a href="https://github.com/smearle"> Sam Earle </a>, the project explores advanced training techniques, such as self-play and reward design, to create an engaging and adaptive game-playing agent to improve players' enjoyment.
