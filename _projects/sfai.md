@@ -56,5 +56,6 @@ The research is ongoing, with further efforts directed toward refining training 
 The code is available in this<a href="https://github.com/WangShourenWSR/fighting-game-two-tier-agent-system.git">GitHub repository</a>. The project code is well-structured, should be compatible for other OpenAI Gym or OpenAI Gym Retro-based tasks. Agents' model are currently not provided, due to it requires LFS service.
 
 ## Paper
-The paper can be found here, <a href="/assets/pdf/projects/sfai/paper.pdf" download>please download PDF file here</a>
+The paper can be found here, <a href="/assets/pdf/projects/sfai/paper.pdf" download>please download PDF file</a>
+
 **Password to the PDF file is: my full name (ShourenWang) + _ + my NYU Net ID (e.g. JohnnySilverhand_js1111)**, you should know the password if you're allowed to view this file.
