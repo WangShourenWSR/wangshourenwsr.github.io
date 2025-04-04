@@ -54,3 +54,7 @@ The research is ongoing, with further efforts directed toward refining training 
 
 ## Codebase 
 Currently, the <a href="https://github.com/WangShourenWSR/SFAI">GitHub repository</a> is private to protect unpublished findings, but I plan to make it publicly available alongside a preprint on arXiv, expected between January and February 2025. The project code is well-structured, with potential contributions to stable-baselines3 and OpenAI Gym Retro libraries.
+
+## Paper
+The paper can be found here, <a href="/assets/pdf/projects/sfai/paper.pdf" download>please download PDF file here</a>
+**Password to the PDF file is: my full name (ShourenWang) + _ + my NYU Net ID (e.g. JohnnySilverhand_js1111)**, you should know the password if you're allowed to view this file.

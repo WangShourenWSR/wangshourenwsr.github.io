@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://game.engineering.nyu.edu/'> NYU Game Innovation Lab </a> | sw5004@nyu.edu
+subtitle: <a href='https://game.engineering.nyu.edu/'> NYU Game Innovation Lab </a> | sxw992@case.edu
 
 profile:
   align: right
