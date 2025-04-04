@@ -53,7 +53,7 @@ The results demonstrated significant improvements in the agent’s learning and 
 The research is ongoing, with further efforts directed toward refining training settings and exploring hyper-agent methods to enhance enjoyability further. The work is targeted for submission to ICML 2025 and IEEE CoG 2025. 
 
 ## Codebase 
-Currently, the <a href="https://github.com/WangShourenWSR/SFAI">GitHub repository</a> is private to protect unpublished findings, but I plan to make it publicly available alongside a preprint on arXiv, expected between January and February 2025. The project code is well-structured, with potential contributions to stable-baselines3 and OpenAI Gym Retro libraries.
+The code is available in this<a href="https://github.com/WangShourenWSR/fighting-game-two-tier-agent-system.git">GitHub repository</a>. The project code is well-structured, should be compatible for other OpenAI Gym or OpenAI Gym Retro-based tasks. Agents' model are currently not provided, due to it requires LFS service.
 
 ## Paper
 The paper can be found here, <a href="/assets/pdf/projects/sfai/paper.pdf" download>please download PDF file here</a>
